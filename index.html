@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRAICHI - 学びが生きがいに。成長が未来に。</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <div class="glow-orb" style="top: -100px; left: -100px;"></div>
+    <div class="glow-orb" style="bottom: -200px; right: -200px; background: radial-gradient(circle, rgba(129, 140, 248, 0.1) 0%, transparent 70%);"></div>
+
+    <header class="glass" style="position: sticky; top: 0; z-index: 100; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--glass-border);">
+        <div style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 1.8rem; background: var(--primary-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">MIRAICHI</div>
+        <nav style="display: flex; gap: 32px;">
+            <a href="#events" style="color: var(--text-primary); text-decoration: none; font-weight: 600;">Events</a>
+            <a href="#about" style="color: var(--text-primary); text-decoration: none; font-weight: 600;">About</a>
+            <a href="https://peatix.com/user/17066914/view" target="_blank" class="btn btn-primary" style="padding: 10px 24px; font-size: 0.9rem;">Join Peatix</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 style="font-family: 'Outfit', sans-serif;">学びが生きがいに。<br>成長が未来に。</h1>
+            <p>生成AIの可能性を共に探求し、個人のスキルを最大化する<br>AI学習プラットフォーム「MIRAICHI」</p>
+            <div style="display: flex; gap: 20px;">
+                <a href="#events" class="btn btn-primary">最新のセミナーを見る</a>
+                <a href="#about" class="btn" style="border: 1px solid var(--glass-border); color: var(--text-primary);">MIRAICHIについて</a>
+            </div>
+        </section>
+
+        <section id="events">
+            <h2 class="section-title">Upcoming Seminars</h2>
+            <div class="event-grid">
+                <!-- Card 1 -->
+                <div class="event-card glass">
+                    <div class="event-image">
+                        <img src="images/event1.png" alt="Claude Code Seminar">
+                        <div style="position: absolute; top: 20px; right: 20px; background: var(--accent-color); padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">REGISTRATION OPEN</div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">2026.04.12 SUN 20:00</div>
+                        <h3 class="event-title">Claude Codeによる非常に常識的なスライド制作術</h3>
+                        <p class="event-desc">AIを活用して、一瞬で高品質なプレゼン資料を作成する最新テクニックを伝授します。</p>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">詳細を見る</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="event-card glass">
+                    <div class="event-image">
+                        <img src="images/event2.png" alt="AI Secretary Seminar">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">2026.04.19 SUN 20:00</div>
+                        <h3 class="event-title">LINEに「自分専用AI秘書」を作る！</h3>
+                        <p class="event-desc">予定管理、返信、タスク整理を自動化する次世代のワークスタイル革命。</p>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">詳細を見る</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="event-card glass">
+                    <div class="event-image">
+                        <img src="images/event3.png" alt="Website Creation Seminar">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">2026.04.26 SUN 20:00</div>
+                        <h3 class="event-title">HPを1日で完結させる非常識な方法</h3>
+                        <p class="event-desc">ノーコードとAIを駆使し、圧倒的なスピードでWebサイトを立ち上げる手法を公開。</p>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">詳細を見る</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="glass" style="margin-top: 60px; border-radius: 40px; display: grid; grid-template-columns: 1fr 1.5fr; gap: 60px; padding: 80px;">
+            <div>
+                <h2 style="font-size: 2.5rem; margin-bottom: 32px;">About MIRAICHI</h2>
+                <p style="margin-bottom: 24px;">MIRAICHIは、生成AIの領域で挑戦する人々を応援し、共に成長していくことを目指したプラットフォームです。</p>
+                <p style="color: var(--text-secondary);">最先端のAI技術を、実生活やビジネスにどう活かすか。私たちは「理論」ではなく「実践」を重視した学びの場を提供しています。</p>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px;">
+                <div style="text-align: center;">
+                    <div style="width: 120px; height: 120px; border-radius: 50%; background: var(--primary-gradient); margin: 0 auto 20px; overflow: hidden; border: 4px solid var(--glass-border);">
+                        <!-- Murakata-san placeholder -->
+                        <div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; font-weight: 800;">DM</div>
+                    </div>
+                    <h3>村岡 大地</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">AI戦略エキスパート</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="width: 120px; height: 120px; border-radius: 50%; background: var(--primary-gradient); margin: 0 auto 20px; overflow: hidden; border: 4px solid var(--glass-border);">
+                        <!-- mirai-san placeholder -->
+                        <div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; font-weight: 800;">mirai</div>
+                    </div>
+                    <h3>今野 純子 (mirai)</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">AI講師 / コミュニティプロデューサー</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div style="margin-bottom: 40px; font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 2rem; opacity: 0.5;">MIRAICHI</div>
+        <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 40px;">
+            <a href="#" style="color: var(--text-secondary); text-decoration: none;">Peatix</a>
+            <a href="#" style="color: var(--text-secondary); text-decoration: none;">Discord</a>
+            <a href="#" style="color: var(--text-secondary); text-decoration: none;">Note</a>
+        </div>
+        <p class="copy">&copy; 2026 MIRAICHI. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
